@@ -1,0 +1,31 @@
+{
+  "Confrence": {
+    "startdate": "01/01/2021",
+    "enddate": "03/01/2021",
+    "creator": "Parth",
+    "title": "Angular - Basics to Advance",
+    "Tracks": [
+      {
+        "title": "Understanding Angular",
+        "category": "Basics",
+        "sessions" : [
+          {
+            "title":"Angular CLI",
+            "categrory":"MORNING",
+            "startTime":"10:00",
+            "duration":"120 mins",
+            "talks":[
+              {
+                "type":"",
+                "duration":"",
+                "author":"",
+                "max-duration":""
+              }
+            ]
+          }
+        ]
+      }
+
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+use movie-recommendation;
+db.getCollection('history').insertMany([{
+  "gerne": "comedy",
+  "name": "comedy-1",
+  "base64": "samleabse64"
+},
+{
+  "gerne": "comedy",
+  "name": "comedy-2",
+  "base64": "samleabse64"
+},
+{
+  "gerne": "comedy",
+  "name": "comedy-3",
+  "base64": "samleabse64"
+},
+{ 
+  "gerne": "comedy",
+  "name": "comedy-4",
+  "base64": "samleabse64"
+},
+{
+  "gerne": "comedy",
+  "name": "comedy-5",
+  "base64": "samleabse64"
+},
+{
+  "gerne": "comedy",
+  "name": "comedy-6",
+  "base64": "samleabse64"
+},
+{
+  "gerne": "comedy",
+  "name": "comedy-7",
+  "base64": "samleabse64"
+},
+{
+  "gerne": "comedy",
+  "name": "comedy-8",
+  "base64": "samleabse64"
+},
+{
+  "gerne": "action",
+  "name": "action-1",
+  "base64": "samleabse64"
+},
+{
+  "gerne": "action",
+  "name": "action-2",
+  "base64": "samleabse64"
+},
+{
+  "gerne": "action",
+  "name": "action-3",
+  "base64": "samleabse64"
+},
+{
+  "gerne": "action",
+  "name": "action-4",
+  "base64": "samleabse64"
+},
+{
+  "gerne": "action",
+  "name": "action-5",
+  "base64": "samleabse64"
+},
+{
+  "gerne": "action",
+  "name": "action-6",
+  "base64": "samleabse64"
+},
+{
+  "gerne": "action",
+  "name": "action-7",
+  "base64": "samleabse64"
+},
+{
+  "gerne": "action",
+  "name": "action-8",
+  "base64": "samleabse64"
+},
+{
+  "gerne": "horror",
+  "name": "horror-1",
+  "base64": "samleabse64"
+},
+{
+  "gerne": "horror",
+  "name": "horror-2",
+  "base64": "samleabse64"
+},
+{
+  "gerne": "horror",
+  "name": "horror-3",
+  "base64": "samleabse64"
+},
+{
+  "gerne": "horror",
+  "name": "horror-4",
+  "base64": "samleabse64"
+},
+{
+  "gerne": "horror",
+  "name": "horror-5",
+  "base64": "samleabse64"
+},
+{
+  "gerne": "horror",
+  "name": "horror-6",
+  "base64": "samleabse64"
+},
+{
+  "gerne": "horror",
+  "name": "horror-7",
+  "base64": "samleabse64"
+},
+{
+  "gerne": "horror",
+  "name": "horror-8",
+  "base64": "samleabse64"
+}]);

@@ -1,0 +1,22 @@
+<div *ngIf="currentUser; else loggedOut">
+  <ng-container *ngFor="let item of keys">
+    <div class="wrapper-frame" *ngIf="genreWiseProduct">
+    <div class="card-header">{{item}} Movies</div>
+    <swiper class="swiper-container" [config]="config" *ngIf="genreWiseProduct">
+      <div *ngFor="let slide of genreWiseProduct[item]" class="swiper-slide box">
+        <div class="card">
+          <div class="card__image" [ngClass]="{ 'card__image--record': slide.gerne === 'comedy', 'card__image--river': slide.gerne === 'horror', 'card__image--fence': slide.gerne === 'action'}"></div>
+          <div class="card__content">
+            <div class="card__title">{{slide.name}}</div>
+            <p class="card__text">Loreum epsum details about movie.</p>
+            <button class="btn btn--block card__btn" (click)="addMovieToWatchlist(slide)">Play</button>
+          </div>
+        </div>
+      </div>
+    </swiper>
+  </div>
+  </ng-container>
+</div>
+<ng-template #loggedOut>
+  Please login.
+</ng-template>
